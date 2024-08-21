@@ -3,6 +3,7 @@ import os
 
 version_tag = os.getenv("VERSION_TAG")
 
+print("my msg")
 print(version_tag)
 # zenodo_token = os.getenv("ZENODO_TOKEN")
 
