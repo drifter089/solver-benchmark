@@ -13,6 +13,9 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v3
 
+    - name: Create zenodo_token file
+      run: echo "ACCESS_TOKEN-sandbox: CNXNk6GBg0dQUvZJsCUEajG4ZZnAr8YUrWPR9oCucnu8vq39jFJDUGoYW6WK" > zenodo_token
+
     - name: Set up Python
       uses: actions/setup-python@v2
 
