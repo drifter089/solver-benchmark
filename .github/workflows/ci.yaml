@@ -17,7 +17,7 @@ jobs:
       uses: actions/setup-python@v2
 
     - name: install req
-      run: pip installl zenodo/req.txt 
+      run: pip install zenodo/req.txt 
 
     - name: Run script
       run: python zenodo/test.py 
