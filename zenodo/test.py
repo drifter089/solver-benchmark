@@ -2,7 +2,9 @@ import zenodopy
 import os
 
 # always start by creating a Client object
-zeno = zenodopy.Client(sandbox=True)
+zeno = zenodopy.Client(
+    sandbox=True, token="CNXNk6GBg0dQUvZJsCUEajG4ZZnAr8YUrWPR9oCucnu8vq39jFJDUGoYW6WK"
+)
 
 # zeno.list_projects
 
