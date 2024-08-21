@@ -1,7 +1,11 @@
 import zenodopy
 import os
 
-# always start by creating a Client object
+version_tag = os.getenv("VERSION_TAG")
+
+print(version_tag)
+# zenodo_token = os.getenv("ZENODO_TOKEN")
+
 zeno = zenodopy.Client(
     sandbox=True, token="CNXNk6GBg0dQUvZJsCUEajG4ZZnAr8YUrWPR9oCucnu8vq39jFJDUGoYW6WK"
 )
