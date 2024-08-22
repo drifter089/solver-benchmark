@@ -13,24 +13,24 @@ zeno = zenodopy.Client(
 
 # zeno.list_projects
 
-zeno.create_project(
-    title="twoversion11",
-    upload_type="other",
-    metadata_json="zenodo/.zenodo.json",
-)
+# zeno.create_project(
+#     title="twoversion11",
+#     upload_type="other",
+#     metadata_json="zenodo/.zenodo.json",
+# )
 
 # print(zeno.deposition_id)
 
-# zeno.set_project(dep_id=101632)
+zeno.set_project(dep_id=101529)
 
 
 # upload file to zenodo
-zeno.upload_file("zenodo/.zenodo.json", publish=True)
-# zeno.update(
-#     source="/home/akshat/zenodopy",
-#     publish=True,
-#     metadata_json="zenodo/.zenodo.json",
-# )
+# zeno.upload_file("zenodo/.zenodo.json", publish=True)
+zeno.update(
+    source="/home/zenodo",
+    publish=True,
+    metadata_json="zenodo/.zenodo.json",
+)
 # zeno.list_files()
 # zeno.upload_file("test.file.txt",publish=True)
 
