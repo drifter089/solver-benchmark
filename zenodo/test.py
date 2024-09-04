@@ -21,13 +21,13 @@ zeno = zenodopy.Client(
 
 # print(zeno.deposition_id)
 
-zeno.set_project(dep_id=106218)
+zeno.set_project(dep_id=106283)
 
 
 # upload file to zenodo
 # zeno.upload_file("zenodo/.zenodo.json", publish=True)
 zeno.update(
-    source="/home/runner/work/solver-benchmark/solver-benchmark/",
+    source="/home/runner/work/solver-benchmark/solver-benchmark",
     publish=True,
     metadata_json="zenodo/.zenodo.json",
 )
