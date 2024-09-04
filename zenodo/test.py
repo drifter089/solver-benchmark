@@ -27,7 +27,7 @@ zeno.set_project(dep_id=106218)
 # upload file to zenodo
 # zeno.upload_file("zenodo/.zenodo.json", publish=True)
 zeno.update(
-    source="/",
+    source="/home/runner/work/solver-benchmark/solver-benchmark/",
     publish=True,
     metadata_json="zenodo/.zenodo.json",
 )
