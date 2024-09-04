@@ -16,6 +16,9 @@ jobs:
     - name: list files
       run: ls -a
 
+    - name: current directory
+      run: pwd
+
     - name: Set up Python
       uses: actions/setup-python@v2
 
