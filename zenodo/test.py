@@ -21,7 +21,7 @@ zeno = zenodopy.Client(
 
 # print(zeno.deposition_id)
 
-zeno.set_project(dep_id=106283)
+zeno.set_project(dep_id=106294)
 
 
 # upload file to zenodo
