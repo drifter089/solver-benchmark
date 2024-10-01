@@ -22,7 +22,7 @@ for attempt in range(1, max_retries + 1):
         zeno.set_project(dep_id=106299)
 
         zeno.update(
-            source="/home/runner/work/solver-benchmark/solver-benchmark/zenodo/req.txt",
+            source="/home/runner/work/solver-benchmark/solver-benchmark/pocs/",
             publish=True,
             metadata_json="/home/runner/work/solver-benchmark/solver-benchmark/zenodo/.zenodo.json",
         )
