@@ -29,7 +29,7 @@ jobs:
           pre-commit install
           pre-commit run --all-files
 
-  tag_push_job:
+  UploadToZenodo:
     if: startsWith(github.ref, 'refs/tags/v')
     runs-on: ubuntu-latest
 
